@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Asrama Digital Album</title>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+    <header class="topbar">
+        <h1>Asrama Digital Album</h1>
+        <p class="subtitle">Tap a photo to view details</p>
+    </header>
+
+    <main>
+        <section id="gallery" class="gallery-grid" aria-live="polite">
+        <!-- Cards injected here by JS -->
+        </section>
+    </main>
+
+    <!-- Modal / Detail view -->
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+        <button id="modalClose" class="modal-close" aria-label="Close">✕</button>
+        <div class="modal-body">
+        <div class="modal-photo-wrapper">
+            <img id="modalImg" src="" alt="Person photo"/>
+        </div>
+        <div class="modal-info">
+            <h2 id="modalName">Name</h2>
+            <p id="modalCaption" class="muted">Caption</p>
+            <p id="modalDate" class="muted small">Date: —</p>
+            <a id="downloadBtn" class="btn" href="#" download>Download</a>
+        </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

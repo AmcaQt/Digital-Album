@@ -1,0 +1,32 @@
+{
+    "album": [
+        {
+            "id": 1,
+            "name": "Kohort 10",
+            "caption": "Gambar Bersama Penasihat Akademik",
+            "image": "images/Kohort-10.JPG",
+            "date": "2025-09-01"
+    },
+        {
+            "id": 2,
+            "name": "Kohort 11",
+            "caption": "Gambar Bersama Penasihat Akademik",
+            "image": "images/Kohort-11.JPG",
+            "date": "2025-09-02"
+    },
+        {
+            "id": 3,
+            "name": "Majlis Kecemerlangan Akademik",
+            "caption": "Penerima Dekan Sesi August-December 2025",
+            "image": "images/Dekan-Aug-Dec.JPG",
+            "date": "2025-09-10"
+    },
+        {
+            "id": 4,
+            "name": "Jayy",
+            "caption": "Badminton Session",
+            "image": "images/Jay.JPG",
+            "date": "2025-09-10"
+    }
+    ]
+}

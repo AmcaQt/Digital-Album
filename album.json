@@ -1,13 +1,24 @@
 {
-    "album": [
-        {
-            "id": 4,
-            "name": "Jayy",
-            "caption": "Badminton Session",
-            "image": "images/Jay.JPG",
-            "date": "2025-09-10"
-    }
+    "kohort8": [
+        { "name": "Abah", "image": "images/Kohort 8/abah.PNG" },
+        { "name": "Acap", "image": "images/Kohort 8/acap_k8.PNG" },
+        { "name": "Aiman SF", "image": "images/Kohort 8/aimansf.PNG" },
+        { "name": "Akmal", "image": "images/Kohort 8/akmal.PNG" },
+        { "name": "Alang", "image": "images/Kohort 8/alang.PNG" },
+        { "name": "Alif FIAW", "image": "images/Kohort 8/aliffiaw.PNG" },
+        { "name": "Along", "image": "images/Kohort 8/along_k8.PNG" },
+        { "name": "Aniq", "image": "images/Kohort 8/aniq.PNG" },
+        { "name": "???", "image": "images/Kohort 8/apatahnamadia.PNG" },
+        { "name": "Ayeh", "image": "images/Kohort 8/ayeh.PNG" },
+        { "name": "Boy", "image": "images/Kohort 8/Boy.PNG" },
+        { "name": "Chenko", "image": "images/Kohort 8/chenko.PNG" },
+        { "name": "Faris", "image": "images/Kohort 8/faris.PNG" },
+        { "name": "Fitriy", "image": "images/Kohort 8/fitriy.PNG" },
+        { "name": "Hamzah", "image": "images/Kohort 8/hamzah.PNG" },
+        { "name": "Joe", "image": "images/Kohort 8/joe.PNG" },
+        { "name": "Lisa", "image": "images/Kohort 8/lisa.PNG" },
+        { "name": "Qayyum", "image": "images/Kohort 8/qayyum.PNG" },
+        { "name": "Toji", "image": "images/Kohort 8/toji.PNG" },
+        { "name": "Zaynul", "image": "images/Kohort 8/zaynul.PNG" }
     ]
-
 }
-

@@ -1,37 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Asrama Digital Album</title>
-    <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-    <header class="topbar">
-        <h1>Asrama Digital Album</h1>
-        <p class="subtitle">Tap a photo to view details</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Album</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Digital Album Asrama</h1>
+        <p>Select Kohort Below</p>
+
+        <div class="kohort-buttons">
+            <button onclick="loadAlbum('kohort8')">Kohort 8</button>
+            <button onclick="loadAlbum('kohort9')">Kohort 9</button>
+            <button onclick="loadAlbum('kohort10')">Kohort 10</button>
+        </div>
     </header>
 
-    <main>
-        <section id="gallery" class="gallery-grid" aria-live="polite">
-        <!-- Cards injected here by JS -->
-        </section>
-    </main>
-
-    <!-- Modal / Detail view -->
-    <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
-        <button id="modalClose" class="modal-close" aria-label="Close">✕</button>
-        <div class="modal-body">
-        <div class="modal-photo-wrapper">
-            <img id="modalImg" src="" alt="Person photo"/>
-        </div>
-        <div class="modal-info">
-            <h2 id="modalName">Name</h2>
-            <p id="modalCaption" class="muted">Caption</p>
-            <p id="modalDate" class="muted small">Date: —</p>
-            <a id="downloadBtn" class="btn" href="#" download>Download</a>
-        </div>
-        </div>
+    <div id="gallery" class="gallery">
+        <!-- Photos will render here -->
     </div>
 
     <script src="script.js"></script>
